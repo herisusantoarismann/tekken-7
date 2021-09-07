@@ -36,7 +36,7 @@
       </div>
     </div>
     <div class="videoBox">
-      <video src="../assets/video/trailer.mp4" loop autoplay muted></video>
+      <video src="../assets/video/trailer.mp4" loop autoplay v-bind:muted="true"></video>
     </div>
   </section>
 </template>
